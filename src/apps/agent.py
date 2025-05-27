@@ -14,7 +14,6 @@ from sub_agent.research.writing_team.writing_agents import writer_agent, reviewe
 from utils.pdf_generator import generate_pdf_report
 
 # This is the main agent for stock analysis. We name this file as agent.py to easily use adk web for testing purpose for now.
-
 analysis_initial_analysis_parallel_workflow = ParallelAgent(
     name="analysis_agents",
     description="Parallel agent for running all four analysis team agents",
@@ -110,8 +109,8 @@ e2e_workflow = SequentialAgent(
 root_agent = e2e_workflow
 
 
-## uncomment this to run the agent locally
-# # Configure logging
+# uncomment this to run the agent locally
+# Configure logging
 # logging.basicConfig(level=logging.INFO)
 # logger = logging.getLogger(__name__)
 
@@ -186,7 +185,7 @@ root_agent = e2e_workflow
 #     print(f"Session created: App='{APP_NAME}', User='{USER_ID}', Session='{SESSION_ID}'")
 
 #     runner = Runner(
-#         agent=sequential_agent,
+#         agent=root_agent,
 #         app_name=APP_NAME,
 #         session_service=session_service
 #     )

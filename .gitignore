@@ -52,3 +52,4 @@ src/archived/
 src/sub_agent/data/
 **/__pycache__/
 *.pyc
+src/apps/parallel_agent_test.py
