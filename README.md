@@ -2,6 +2,10 @@
 
 A comprehensive financial analysis and recommendation system built using Google's Agent Development Kit (ADK).
 
+## Project Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EwlJXowPYgI" frameborder="0" allowfullscreen></iframe> 
+
 ## Project Structure
 
 ```
@@ -117,4 +121,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Google's Agent Development Kit (ADK)
 - yfinance for financial data
-- All contributors and users of the system 
+- All contributors and users of the system
+
