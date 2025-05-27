@@ -17,15 +17,12 @@ src/
 │       │   └── equity_product_recommendation_agent.py  # Stock recommendations
 │       ├── writing_team/
 │       │   └── writing_agents.py         # Report generation and review
-│       ├── search_team/                  # Market research and data collection (coming soon)
+│       ├── search_team/                  # Market research and data collection
 │       ├── utils/
-│       │   └── file_utils.py            # File handling utilities (to be moved to src/utils)
+│       │   └── file_utils.py            # File handling utilities
 │       └── prompts.py                    # Centralized agent instructions
 ├── utils/
 │   └── pdf_generator.py                 # PDF report generation
-├── sample_reports/                      # Example analysis reports
-├── apps/
-│   └── agent.py                         # sample agent that create report for a single stock leveraing the sub agents 
 ├── sample_reports/                      # Example analysis reports
 └── archived/                           # Archived code and resources
 ```
@@ -52,8 +49,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/joycel-github/finBot_ADK.git
-cd finBot_ADK
+git clone https://github.com/joycel-github/finance-agent-adk.git
+cd finance-agent-adk
 ```
 
 2. Set up the virtual environment:
@@ -87,8 +84,9 @@ adk web --port 8080
 ## Usage
 
 1. Access the web interface at `http://localhost:8080`
-2. Send the query you would like (e.g. analyze microsoft)
-3. Read the report from the chat interface or stored PDF version
+2. Select the type of analysis you want to perform
+3. Enter the stock symbol or other relevant information
+4. Review the generated analysis and recommendations
 
 ## Development
 
