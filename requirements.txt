@@ -1,0 +1,10 @@
+google-cloud-aiplatform>=1.36.0
+google-cloud-core>=2.3.3
+yfinance>=0.2.36
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+aiohttp>=3.9.0
+asyncio>=3.4.3 
