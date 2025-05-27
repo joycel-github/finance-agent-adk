@@ -4,7 +4,7 @@ A comprehensive financial analysis and recommendation system built using Google'
 
 ## Project Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EwlJXowPYgI" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://www.youtube.com/watch2)](https://www.youtube.com/embed/EwlJXowPYgI)
 
 ## Project Structure
 
