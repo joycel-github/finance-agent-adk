@@ -23,7 +23,9 @@ src/
 │       └── prompts.py                    # Centralized agent instructions
 ├── utils/
 │   └── pdf_generator.py                 # PDF report generation
-├── sample_reports/                      # Example analysis reports
+├── agents_sample_reports/                # Example analysis reports
+├── apps/                                # Application scripts
+│   └── agent.py                         # Sample agent that creates report for a single stock leveraging the sub agents
 └── archived/                           # Archived code and resources
 ```
 
