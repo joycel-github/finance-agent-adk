@@ -1,4 +1,4 @@
-# Global Market Bot ADK
+# Global Market Bot (with Google Cloud ADK)
 
 A comprehensive financial analysis and recommendation system built using Google's Agent Development Kit (ADK).
 
